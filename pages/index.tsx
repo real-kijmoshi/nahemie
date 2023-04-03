@@ -3,17 +3,19 @@ import { readdirSync } from "fs";
 import { join } from "path";
 import Group from "./components/Group";
 
-
-export default function Home({hydrocarbons}: {hydrocarbons: Array<string>}) {
+export default function Home({
+  hydrocarbons,
+}: {
+  hydrocarbons: Array<string>;
+}) {
   return (
     <>
-      {hydrocarbons.map((x: string) => {    
+      {hydrocarbons.map((x: string) => {
         return (
           <Group
             name={x}
             data={
-              require(`../data/hydrocarbons/${x}/_info.json`) as 
-              {
+              require(`../data/hydrocarbons/${x}/_info.json`) as {
                 end: string;
                 pattern: string;
               }
