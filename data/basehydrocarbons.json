@@ -1,0 +1,52 @@
+[
+  {
+    "name": "met",
+    "hydrogens": 1,
+    "pattern": ""
+  },
+  {
+    "name": "et",
+    "hydrogens": 2,
+    "pattern": ""
+  },
+  {
+    "name": "prop",
+    "hydrogens": 3,
+    "pattern": ""
+  },
+  {
+    "name": "but",
+    "hydrogens": 4,
+    "pattern": ""
+  },
+  {
+    "name": "pent",
+    "hydrogens": 5,
+    "pattern": ""
+  },
+  {
+    "name": "hex",
+    "hydrogens": 6,
+    "pattern": ""
+  },
+  {
+    "name": "hept",
+    "hydrogens": 7,
+    "pattern": ""
+  },
+  {
+    "name": "oct",
+    "hydrogens": 8,
+    "pattern": ""
+  },
+  {
+    "name": "non",
+    "hydrogens": 9,
+    "pattern": ""
+  },
+  {
+    "name": "dec",
+    "hydrogens": 10,
+    "pattern": ""
+  }
+]
