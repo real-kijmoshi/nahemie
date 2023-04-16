@@ -6,9 +6,11 @@ export default function Group(props: {
 }) {
   return (
     <div
+    style={{cursor: "pointer"}}
       onClick={() => {
         router.push(`/group/${props.name}`);
-      }}
+      }
+    }
     >
       <h1>{props.name}</h1>
     </div>

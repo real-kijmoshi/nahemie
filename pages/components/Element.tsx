@@ -1,9 +1,6 @@
 import router from "next/router";
 
-export default function Group(props: {
-  name: string;
-  data: { pattern: string };
-}) {
+export default function Group(props: any) {
   return (
     <div
       onClick={() => {

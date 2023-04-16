@@ -1,4 +1,4 @@
 {
   "end": "en",
-  "pattern": "2n"
+  "pattern": "2*n"
 }
