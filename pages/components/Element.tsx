@@ -8,7 +8,7 @@ export default function Group(props: any) {
       }}
     >
       <h1>
-        {props.name} {props.data.pattern}
+        {props.name} {props.data?.pattern}
       </h1>
     </div>
   );

@@ -22,7 +22,7 @@ export default function Group(props: any) {
             <div key={hydrocarbon.name + props.data.end }>
               <h1> { hydrocarbon.name + props.data.end } </h1>
                 <span style={{fontSize: "30px"}}>
-                  C<span style={{fontSize: "20px"}}>{hydrocarbon.hydrogens > 1 && hydrocarbon.hydrogens}</span>H<span style={{fontSize: "20px"}}>{eval(props.data.pattern.replace("n", hydrocarbon.hydrogens))}</span>
+                  C<span style={{fontSize: "20px"}}>{hydrocarbon.hydrogens > 1 && hydrocarbon.hydrogens}</span>H<span style={{fontSize: "20px"}}>{eval(props.data?.pattern.replace("n", hydrocarbon.hydrogens))}</span>
                 </span>
             </div>
           )
