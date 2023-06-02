@@ -1,0 +1,26 @@
+[
+  {
+    "name": "związki organiczne",
+    "definition": "Związki chemiczne, które zawierają węgiel i co najmniej jeden inny pierwiastek, takie jak węglowodory, alkohole, kwasy karboksylowe, aminy i wiele innych."
+  },
+  {
+    "name": "szereg homologiczny",
+    "definition": "Szereg związków organicznych, które mają podobną budowę, a różnią się tylko liczbą powtarzających się jednostek składowych w ich strukturze. Każdy kolejny człon szeregu różni się od poprzedniego o jedną jednostkę składową."
+  },
+  {
+    "name": "jednostka składowa",
+    "definition": "Część cząsteczki związku organicznego, która powtarza się w szeregu homologicznym, np. w przypadku alkanów jest to łańcuch węglowy."
+  },
+  {
+    "name": "alkany",
+    "definition": "Nasycone węglowodory, które składają się tylko z wiązań pojedynczych między atomami węgla. Członami szeregu homologicznego alkany są cząsteczki o wzorze ogólnym CnH2n+2."
+  },
+  {
+    "name": "alkeny",
+    "definition": "Nienasycone węglowodory, które zawierają co najmniej jedno wiązanie podwójne między atomami węgla. Członami szeregu homologicznego alkenów są cząsteczki o wzorze ogólnym CnH2n."
+  },
+  {
+    "name": "alkiny",
+    "definition": "Nienasycone węglowodory, które zawierają co najmniej jedno wiązanie potrójne między atomami węgla. Członami szeregu homologicznego alkinów są cząsteczki o wzorze ogólnym CnH2n-2."
+  }
+]
