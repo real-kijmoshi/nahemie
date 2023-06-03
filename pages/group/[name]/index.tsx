@@ -25,7 +25,7 @@ export default function Group(props: any) {
             hydrogens: number;
             pattern: string;
           }) => {
-            let hydrocarbonOverData: { exist: any; };
+            let hydrocarbonOverData: { exist: any };
             try {
               hydrocarbonOverData = require(`@/data/hydrocarbons/${name}/${
                 hydrocarbon.name + props.data?.end
@@ -38,29 +38,44 @@ export default function Group(props: any) {
               <div
                 key={hydrocarbon.name}
                 className={styles.hydrocarbon}
-                style={hydrocarbonOverData?.exist ? {cursor: "pointer"} : {cursor: "not-allowed"}}
+                style={
+                  hydrocarbonOverData?.exist
+                    ? { cursor: "pointer" }
+                    : { cursor: "not-allowed" }
+                }
                 onClick={() => {
-                  if(hydrocarbonOverData?.exist) router.push(`/group/${name}/hydrocarbon/${hydrocarbon.name + props.data.end}`);
+                  if (hydrocarbonOverData?.exist)
+                    router.push(
+                      `/group/${name}/hydrocarbon/${
+                        hydrocarbon.name + props.data.end
+                      }`
+                    );
                 }}
               >
-                  <div key={hydrocarbon.name + props.data.end}>
-                    <h1 style={!hydrocarbonOverData.exist ? {textDecoration: "line-through"} : {}}> {hydrocarbon.name + props.data.end} </h1>
-                    <span style={{ fontSize: "30px" }}>
-                      C
-                      <span style={{ fontSize: "20px" }}>
-                        {hydrocarbon.hydrogens > 1 && hydrocarbon.hydrogens}
-                      </span>
-                      H
-                      <span style={{ fontSize: "20px" }}>
-                        {eval(
-                          props.data?.pattern.replace(
-                            "n",
-                            hydrocarbon.hydrogens
-                          )
-                        )}
-                      </span>
+                <div key={hydrocarbon.name + props.data.end}>
+                  <h1
+                    style={
+                      !hydrocarbonOverData.exist
+                        ? { textDecoration: "line-through" }
+                        : {}
+                    }
+                  >
+                    {" "}
+                    {hydrocarbon.name + props.data.end}{" "}
+                  </h1>
+                  <span style={{ fontSize: "30px" }}>
+                    C
+                    <span style={{ fontSize: "20px" }}>
+                      {hydrocarbon.hydrogens > 1 && hydrocarbon.hydrogens}
                     </span>
-                  </div>
+                    H
+                    <span style={{ fontSize: "20px" }}>
+                      {eval(
+                        props.data?.pattern.replace("n", hydrocarbon.hydrogens)
+                      )}
+                    </span>
+                  </span>
+                </div>
               </div>
             );
           }
