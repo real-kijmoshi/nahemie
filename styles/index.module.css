@@ -7,7 +7,6 @@
   height: fit-content;
   position: relative;
   text-size-adjust: 1rem;
-
 }
 .group:hover {
   background-color: rgb(88, 145, 243);
@@ -90,8 +89,6 @@
   width: 50%;
   margin-top: 20px;
 }
-
-
 
 @media screen and (max-width: 1000px) {
   .definition {
@@ -229,5 +226,4 @@
   .definition {
     width: 40%;
   }
-
 }

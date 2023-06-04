@@ -63,7 +63,13 @@ export default function Group(props: any) {
                     {" "}
                     {hydrocarbon.name + props.data.end}{" "}
                   </h1>
-                  <span style={{ fontSize: "30px" }}>
+                  <span
+                    style={
+                      !hydrocarbonOverData.exist
+                        ? { fontSize: "30px", textDecoration: "line-through" }
+                        : { fontSize: "30px" }
+                    }
+                  >
                     C
                     <span style={{ fontSize: "20px" }}>
                       {hydrocarbon.hydrogens > 1 && hydrocarbon.hydrogens}

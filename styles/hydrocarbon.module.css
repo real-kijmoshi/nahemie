@@ -1,0 +1,156 @@
+#hydrocarbon {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+#circle1 {
+  background-color: rgb(39, 162, 239);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: -200px;
+  top: -100px;
+  z-index: -1;
+}
+
+#circle2 {
+  background-color: rgb(39, 162, 239);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  right: -230px;
+  top: 230px;
+  z-index: -1;
+}
+
+#circle3 {
+  background-color: rgb(239, 129, 40);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  left: -100px;
+  top: 700px;
+  z-index: -1;
+}
+
+#application {
+  position: absolute;
+  border-radius: 30px;
+  top: 500px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 40px;
+}
+
+#application {
+  text-size-adjust: 4.5rem;
+}
+
+#properties_container {
+  position: absolute;
+  border-radius: 30px;
+  top: 200px;
+  right: 10px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#properties_container h2 {
+  text-align: center;
+}
+
+#properties {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#properties > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#ciekawostki {
+  position: absolute;
+  border-radius: 30px;
+  top: 500px;
+  right: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 40px;
+}
+
+/*
+ make ciekawostki in other place when screen is smaller
+ */
+@media screen and (max-width: 1100px) {
+  #ciekawostki {
+    top: 600px;
+    right: 600px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #ciekawostki {
+    top: 820px;
+    right: 500px;
+  }
+  #properties_container {
+    top: 300px;
+    right: 10px;
+  }
+
+  #application {
+    top: 620px;
+    
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #ciekawostki {
+    right: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #ciekawostki {
+    right: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #ciekawostki {
+    right: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #ciekawostki {
+    right: 100px;
+  }
+}

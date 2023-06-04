@@ -1,0 +1,19 @@
+{
+  "application": [
+    "jest składnikiem gazu ziemnego",
+    "jest stosowany do produkcji",
+    "jest stosowany jako paliwo"
+  ],
+  "properties": {
+    "chemical": ["palny", "jest mało reaktywny"],
+    "physical": ["jest gazem", "jest bezbarwny", "jest lżejszy od powietrza"]
+  },
+  "ciekawostki": [
+    "metan często doprowadza do wybuchów",
+    "Metan produkowany jest z krowich gazów"
+  ],
+  "images": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Methane-3D-balls.png/220px-Methane-3D-balls.png"
+  ],
+  "exist": true
+}
