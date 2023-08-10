@@ -7,19 +7,19 @@ export default function Group(props: {
 }) {
   return (
     <div
-      key={props.name}
+      key={props?.name}
       className={styles.group}
       onClick={() => {
-        router.push(`/group/${props.name}`);
+        router.push(`/group/${props?.name}`);
       }}
     >
-      <h1 style={{ fontSize: "90px" }}>{props.name}</h1>
+      <h1 style={{ fontSize: "90px" }}>{props?.name}</h1>
       <div className={styles.addionalInfo}>
         <h1>
           Wzor: C<span style={{ fontSize: "20px" }}>n</span>H
-          <span style={{ fontSize: "20px" }}>{props.data.pattern}</span>
+          <span style={{ fontSize: "20px" }}>{props.data?.pattern}</span>
         </h1>
-        <h1>koncowka: {props.data.end}</h1>
+        <h1>koncowka: {props.data?.end}</h1>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ export default function Definition({ definition }: any) {
 
   return (
     <div
-      key={definition.name}
+      key={definition?.name}
       className={styles.definition}
       onMouseEnter={() => {
         setHover(true);
@@ -18,9 +18,9 @@ export default function Definition({ definition }: any) {
         setHover(!hover);
       }}
     >
-      <h1>{definition.name}</h1>
+      <h1>{definition?.name}</h1>
       <h2 className={styles.definitionAddionalInfo}>
-        {hover && definition.definition}
+        {hover && definition?.definition}
       </h2>
     </div>
   );
