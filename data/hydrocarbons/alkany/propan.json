@@ -1,0 +1,24 @@
+{
+    "application": [
+        "jest używany jako gaz nośny do kosmetyków w areozolu",
+        "jest stosowany jako paliwo do urządzeń grzewczych",
+        "jest stosowany do zasilania pieców na przykład piekarniczych"
+    ],
+    "properties": {
+        "chemical": [
+            "bezwonny",
+            "jest mało reaktywny",
+            "jest łatwopalny",
+            "jest gazem"
+        ],
+        "physical": [
+            "jest gazem płynnym",
+            "jest bezbarwny",
+            "nie rozpuszcza się w wodzie"
+        ]
+    },
+    "ciekawostki": [
+        "z racji na to, że propan, aby przejść ze stanu ciekłego na stały potrzebuję temperatury minus 187 stopni Celsjusza nawet w przypadku mroźnej zimy nie zamarźnie",
+        "czysty propan jest ekologiczny"
+    ]
+}

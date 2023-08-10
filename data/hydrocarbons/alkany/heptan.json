@@ -1,0 +1,21 @@
+{
+    "application": [
+        "jest używany jako paliwo",
+        "jest stosowany w środkach czyszczących",
+        "jest używany jako środek znieczulający"
+    ],
+    "properties": {
+        "chemical": [
+            "ma zapach owocowy",
+            "jest łatwopalny"
+        ],
+        "physical": [
+            "jest cieczą",
+            "jest bezbarwny",
+            "nie rozpuszcza się w wodzie"
+        ]
+    },
+    "ciekawostki": [
+        "w kosmetykach używa się go jako regulator lepkości."
+    ]
+}

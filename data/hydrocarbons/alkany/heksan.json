@@ -1,0 +1,21 @@
+{
+    "application": [
+        "jest używany jako rozpuszczalnik organiczny klejów",
+        "jest stosowany jako środek czyszczący",
+        "jest używany jako rozcieńczalnik"
+    ],
+    "properties": {
+        "chemical": [
+            "jest praktycznie niereaktywny",
+            "jest wysoce łatwopalny"
+        ],
+        "physical": [
+            "jest cieczą",
+            "jest bezbarwny",
+            "nie rozpuszcza się w wodzie"
+        ]
+    },
+    "ciekawostki": [
+        "działa toksycznie na organizmy wodne. Może powodować długo utrzymujące się niekorzystne zmiany w środowisku wodnym"
+    ]
+}

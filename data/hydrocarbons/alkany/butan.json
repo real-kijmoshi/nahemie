@@ -1,0 +1,22 @@
+{
+    "application": [
+        "jest używany jako rozpuszczalnik",
+        "jest stosowany jako substancja chlodząca w chłodziarkach",
+        "jest to gaz pędny używany do wyrobu benzyny"
+    ],
+    "properties": {
+        "chemical": [
+            "bezwonny",
+            "jest mało reaktywny",
+            "jest skrajnie łatwopalny"
+        ],
+        "physical": [
+            "jest gazem ",
+            "jest bezbarwny",
+            "nie rozpuszcza się w wodzie"
+        ]
+    },
+    "ciekawostki": [
+        "po spaleniu całkowitym kilograma butanu, uzyskujemy ok. 1,5 kg wody i ok. 3 kg dwutlenku węgla."
+    ]
+}

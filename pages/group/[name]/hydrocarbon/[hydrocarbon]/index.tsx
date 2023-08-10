@@ -1,8 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import { Slide } from "react-slideshow-image";
-
 import styles from "@/styles/hydrocarbon.module.css";
 import "react-slideshow-image/dist/styles.css";
 
@@ -27,7 +25,6 @@ export default function Hydrocarbon({ data }: any) {
         require(`@/data/hydrocarbons/${router.query.name}/${router.query.hydrocarbon}.json`)
       );
 
-      console.log(hydrocarbonOverData);
     } catch (error) {
       setHydrocarbonOverData({ exist: false });
     }
@@ -47,6 +44,17 @@ export default function Hydrocarbon({ data }: any) {
       <div id={styles.circle1} />
       <div id={styles.circle2} />
       <div id={styles.circle3} />
+
+      {
+        !hydrocarbonOverData?.application && (
+          <div>
+            <h1>
+              Aktualnie nie posiadamy wielu informacji na temat tego węglowodoru jeśli chcesz możesz dodać je wysyłając maila na adres: <a href="mailto:dev@kijmoshi.xyz" style={{ color: "white" }}>dev@kijmoshi.xyz</a>
+              lub przez <a href="https://kijmoshi.xyz" style={{ color: "white" }}>moją stronę</a>
+            </h1>
+          </div>
+        )
+      }
 
       <div id={styles.application}>
         <h2>zastosowania</h2>

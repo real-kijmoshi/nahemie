@@ -39,12 +39,12 @@ export default function Group(props: any) {
                 key={hydrocarbon.name}
                 className={styles.hydrocarbon}
                 style={
-                  hydrocarbonOverData?.exist
-                    ? { cursor: "pointer" }
-                    : { cursor: "not-allowed" }
+                  hydrocarbonOverData.exist == false
+                  ? { cursor: "not-allowed" }
+                  : { cursor: "pointer" }
                 }
                 onClick={() => {
-                  if (hydrocarbonOverData?.exist)
+                  if (hydrocarbonOverData.exist != false)
                     router.push(
                       `/group/${name}/hydrocarbon/${
                         hydrocarbon.name + props.data.end
@@ -55,8 +55,8 @@ export default function Group(props: any) {
                 <div key={hydrocarbon.name + props.data.end}>
                   <h1
                     style={
-                      !hydrocarbonOverData.exist
-                        ? { textDecoration: "line-through" }
+                      hydrocarbonOverData.exist == false
+                        ? { textDecoration: "line-through"}
                         : {}
                     }
                   >
@@ -65,7 +65,7 @@ export default function Group(props: any) {
                   </h1>
                   <span
                     style={
-                      !hydrocarbonOverData.exist
+                      hydrocarbonOverData.exist == false
                         ? { fontSize: "30px", textDecoration: "line-through" }
                         : { fontSize: "30px" }
                     }

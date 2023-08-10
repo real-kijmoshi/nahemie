@@ -1,0 +1,23 @@
+{
+    "application": [
+        "jest składnikiem gazu ziemnego",
+        "jest stosowany do produkcji tworzyw sztucznych",
+        "jest stosowany jako paliwo"
+    ],
+    "properties": {
+        "chemical": [
+            "bezwonny",
+            "jest mało reaktywny",
+            "ulega reakcjom spalania całkowitego i niecałkowitego"
+        ],
+        "physical": [
+            "jest gazem",
+            "jest bezbarwny",
+            "jest lżejszy od powietrza"
+        ]
+    },
+    "ciekawostki": [
+        "duże stężenie etanu w powietrzu może spowodować uduszenie",
+        "etan ze względu na bezpieczeństwo przetrzymuje się w specjalnych butlach i zbiornikach"
+    ]
+}
